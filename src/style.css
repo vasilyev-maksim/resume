@@ -1,0 +1,143 @@
+html * {
+  line-height: 1.5em;
+  font-variant-numeric: lining-nums;
+}
+
+.name {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.job-title {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.bio {
+  margin: 0;
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.contacts {
+  margin: 0;
+  margin-top: 1rem;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+@page {
+  margin: 2rem 1rem;
+}
+
+@media print {
+  html {
+    font-size: 10.3px;
+  }
+
+  .subsection {
+    break-inside: avoid;
+  }
+}
+
+@media screen {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* > 1200px, desktop */
+@media screen and (min-width: 1200px) {
+  body {
+    width: calc(1200px - 5rem);
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* > 1000px */
+@media print, screen and (min-width: 1000px) {
+  .desktop.layout {
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+  }
+
+  .mobile.layout {
+    display: none;
+  }
+}
+
+/* < 1000px, mobile */
+@media screen and (max-width: 1000px) {
+  .desktop.layout {
+    display: none;
+  }
+
+  .mobile.layout {
+    display: block;
+  }
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+}
+
+ul {
+  padding-inline-start: 1rem;
+}
+
+body {
+  margin: 2.5rem;
+  font-family: "Merriweather", serif;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.section > header {
+  color: rgb(32, 121, 199);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.section > ul {
+  margin-bottom: 0;
+}
+
+.section > .subsection {
+  margin-top: 1.3rem;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.subsection > header {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.dates,
+.tech-stack {
+  font-size: 0.85rem;
+  color: rgb(83, 83, 83);
+}
+
+.tech-stack {
+  margin-top: 0.6rem;
+}
+
+.subsection > .description {
+  margin-top: 1rem;
+}
+
+.two.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
