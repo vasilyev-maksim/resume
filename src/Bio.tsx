@@ -4,7 +4,7 @@ import { MediumLink } from "./Links"
 export const Bio: React.FC = () => {
   return (
     <p className="bio">
-      I'm a senior frontend developer with 8+ years of experience in creating
+      I'm a senior frontend developer with 8+ years of experience creating
       complex web platforms of all sizes (6+ years using React and Typescript, 4
       years of backend development experience using Node.js, C# and PHP). My
       greatest accomplishment to date is the successful implementation of a
