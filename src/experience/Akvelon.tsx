@@ -23,7 +23,7 @@ export const Akvelon: React.FC = () => {
         "GraphQL",
         "Python",
         "Node.js",
-        "go"
+        "Go"
       ]}
       bullets={[
         "Worked as a contractor for one of the largest forum-based social networks in the U.S., with over 100 million daily active users as of 2024, where I focused mainly on SEO optimization while also contributing to UI development.",
