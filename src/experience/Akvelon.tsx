@@ -28,7 +28,7 @@ export const Akvelon: React.FC = () => {
       bullets={[
         "Worked as a contractor for one of the largest forum-based social networks in the U.S., with over 100 million daily active users as of 2024, where I focused mainly on SEO optimization while also contributing to UI development.",
         [
-          "Made frequent updates to the LD+JSON structured data generation algorithm as requested by Google to enhance SEO metrics and improve content exposure on the Google Discover surface",
+          "Made frequent updates to the JSON-LD structured data generation algorithm as requested by Google to enhance SEO metrics and improve content exposure on the Google Discover surface",
           "Made contributions (on both frontend and backend) to a Machine Translation project that translates content into multiple languages using ML models",
         ],
       ]}
