@@ -5,12 +5,12 @@ import { PashaBank } from "./PashaBank"
 import { Profit } from "./Profit"
 import { Risk } from "./Risk"
 import { SmartSolutions } from "./SmartSolutions"
-import { Akvelon } from "./Akvelon"
+import { Reddit } from "./Reddit"
 
 export const Experience: React.FC = () => {
   return (
     <Section header="Experience">
-      <Akvelon />
+      <Reddit />
       <Ibit />
       <PashaBank />
       <Risk />
