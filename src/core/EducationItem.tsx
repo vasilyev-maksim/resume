@@ -11,7 +11,7 @@ export const EducationItem: React.FC<{
 }> = ({ institution, location, faculty, dates, degree }) => {
   return (
     <Subsection
-      header={
+      title={
         <>
           {faculty}, <Link label={institution.name} href={institution.href} />
         </>

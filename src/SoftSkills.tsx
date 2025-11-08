@@ -4,7 +4,7 @@ import { Section } from "./core/Section"
 
 export const SoftSkills: React.FC = () => {
   return (
-    <Section header="Soft skills">
+    <Section title="Soft skills">
       <BulletedList
         bullets={[
           "Leadership",

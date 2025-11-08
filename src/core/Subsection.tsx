@@ -1,12 +1,12 @@
 import * as React from "react"
 
 export const Subsection: React.FC<{
-  header: React.ReactNode
+  title: React.ReactNode
   children: React.ReactNode
-}> = ({ header, children }) => {
+}> = ({ title, children }) => {
   return (
     <div className="subsection">
-      <header>{header}</header>
+      <h3>{title}</h3>
       {children}
     </div>
   )

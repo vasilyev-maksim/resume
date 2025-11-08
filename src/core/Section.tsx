@@ -1,12 +1,12 @@
 import * as React from "react"
 
 export const Section: React.FC<{
-  header: React.ReactNode
+  title: React.ReactNode
   children: React.ReactNode
-}> = ({ header, children }) => {
+}> = ({ title, children }) => {
   return (
     <div className="section">
-      <header>{header}</header>
+      <h2>{title}</h2>
       {children}
     </div>
   )

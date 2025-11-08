@@ -10,7 +10,7 @@ export const Risk: React.FC = () => {
         link: "https://www.risk.az/",
       }}
       location="Azerbaijan"
-      position="Senior Full-stack Engineer"
+      position="Full-stack Engineer"
       dates={{
         from: "August 2017",
         to: "August 2018",
@@ -29,7 +29,7 @@ export const Risk: React.FC = () => {
         "CentOS",
         "Nginx",
         "ELK stack",
-        "LINQPad (my love ♥)",
+        "LINQPad (my love ♡)",
       ]}
       bullets={[
         <>

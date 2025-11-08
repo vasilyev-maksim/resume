@@ -43,9 +43,9 @@ export const Resume: React.FC = () => {
           <div className="left">
             <Header name={name} jobTitle={jobTitle} />
             <Bio />
-            <Articles />
             <Experience />
             <Education />
+            <Articles />
           </div>
           <div className="right" style={{ minWidth: "18rem" }}>
             <Contacts />

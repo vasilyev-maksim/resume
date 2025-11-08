@@ -9,7 +9,7 @@ import { Reddit } from "./Reddit"
 
 export const Experience: React.FC = () => {
   return (
-    <Section header="Experience">
+    <Section title="Experience">
       <Reddit />
       <Ibit />
       <PashaBank />

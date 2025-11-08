@@ -2,10 +2,15 @@ import * as React from "react"
 import { BulletedList } from "./core/BulletedList"
 import { Link } from "./core/Link"
 import { Section } from "./core/Section"
+import { DevToLink, MediumLink } from "./Links"
 
 export const Articles: React.FC = () => {
   return (
-    <Section header="Articles">
+    <Section title="Articles">
+      <p>
+        Sometimes I write articles about React and TypeScript on <MediumLink />{" "}
+        / <DevToLink />:
+      </p>
       <BulletedList
         bullets={[
           <>

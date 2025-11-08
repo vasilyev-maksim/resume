@@ -22,7 +22,7 @@ export const JobItem: React.FC<{
 }) => {
   return (
     <Subsection
-      header={
+      title={
         <>
           <Link
             href={company.link}

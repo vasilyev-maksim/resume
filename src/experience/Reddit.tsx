@@ -35,7 +35,7 @@ export const Reddit: React.FC = () => {
             label="Best of Reddit"
             href="https://www.reddit.com/posts/2025/global/"
           />{" "}
-          page from scratch and implemented the updated UI/UX design.
+          page from scratch and implemented the updated UI/UX design
         </>,
       ]}
     />

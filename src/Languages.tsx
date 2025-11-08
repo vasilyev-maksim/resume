@@ -4,7 +4,7 @@ import { Section } from "./core/Section"
 
 export const Languages: React.FC = () => {
   return (
-    <Section header="Languages">
+    <Section title="Languages">
       <BulletedList
         bullets={["English (B2)", "Russian (Native)", "Azerbaijani (B1)"]}
       />

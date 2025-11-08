@@ -100,10 +100,11 @@ body {
   margin-top: 2rem;
 }
 
-.section > header {
+.section > h2 {
   color: rgb(32, 121, 199);
   font-weight: bold;
   font-size: 1.25rem;
+  margin: 0;
 }
 
 .section > ul {
@@ -118,9 +119,10 @@ body {
   font-weight: bold;
 }
 
-.subsection > header {
+.subsection > h3 {
   font-weight: bold;
   font-size: 1.1rem;
+  margin: 0;
 }
 
 .dates,
