@@ -4,7 +4,7 @@ import { IBullet, BulletedList } from "./BulletedList"
 import { Link } from "./Link"
 
 export const JobItem: React.FC<{
-  company: { name: React.ReactNode; link: string }
+  company: { name: React.ReactNode; link?: string }
   location: string
   position: string
   dates: { from: string; to: string }
@@ -24,11 +24,15 @@ export const JobItem: React.FC<{
     <Subsection
       title={
         <>
-          <Link
-            href={company.link}
-            label={company.name}
-            className="company-name"
-          />
+          {company.link ? (
+            <Link
+              href={company.link}
+              label={company.name}
+              className="company-name"
+            />
+          ) : (
+            <span className="company-name">{company.name}</span>
+          )}
           , {location} — {position}
         </>
       }

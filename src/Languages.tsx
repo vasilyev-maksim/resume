@@ -6,7 +6,7 @@ export const Languages: React.FC = () => {
   return (
     <Section title="Languages">
       <BulletedList
-        bullets={["English (B2)", "Russian (Native)", "Azerbaijani (B1)"]}
+        bullets={["English (C1)", "Russian (Native)", "Azerbaijani (B1)"]}
       />
     </Section>
   )

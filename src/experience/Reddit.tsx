@@ -13,7 +13,7 @@ export const Reddit: React.FC = () => {
       position="Senior Full-stack Engineer (Contractor)"
       dates={{
         from: "May 2023",
-        to: "present",
+        to: "Feb 2025",
       }}
       techStack={[
         "HTML5 & CSS3",
@@ -35,7 +35,7 @@ export const Reddit: React.FC = () => {
             label="Best of Reddit"
             href="https://www.reddit.com/posts/2025/global/"
           />{" "}
-          page from scratch and implemented the updated UI/UX design
+          page from scratch and implemented an updated UI/UX design
         </>,
       ]}
     />

@@ -9,16 +9,15 @@ export const HardSkills: React.FC = () => {
         bullets={[
           "HTML5 & CSS3",
           "JavaScript, Typescript",
-          "React.js + ecosystem (Redux, etc.)",
-          "SASS, PostCSS, CSS Modules, styled-components",
-          "Bundlers (Webpack, Parcel, Vite)",
-          "Express.js, Node.js",
+          "React.js (+ecosystem), Next.js",
+          "Animations: react-spring, framer-motion, p5.js, native canvas",
           "Micro-frontends",
-          "OOP, SOLID, Patterns",
-          "Unit & E2E Testing",
-          "CI/CD (CircleCI, Heroku, Netlify)",
-          "Agile, Scrum",
-          "UX, Animations",
+          "CSS Modules, styled-components, SASS, PostCSS, Tailwind.css",
+          "Webpack, Parcel, Vite",
+          "Node.js, Deno, Express.js, Nuxt.js",
+          "All sorts of testing",
+          "Docker, CircleCI, Heroku, Netlify, Deno deploy",
+          "OOP, SOLID, Functional programming",
         ]}
       />
     </Section>

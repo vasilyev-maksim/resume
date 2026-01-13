@@ -7,12 +7,12 @@ export const SoftSkills: React.FC = () => {
     <Section title="Soft skills">
       <BulletedList
         bullets={[
-          "Leadership",
-          "Teamwork",
+          "Creativity & curiosity",
+          "Fast and willing learner",
+          "Critical & analytical thinking",
           "Problem solving",
-          "Critical thinking",
-          "Creativity",
-          "Fast learner",
+          "Teamwork",
+          "Leadership",
         ]}
       />
     </Section>
