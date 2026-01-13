@@ -17,6 +17,7 @@ export const HardSkills: React.FC = () => {
           "Node.js, Deno, Express.js, Nuxt.js",
           "All sorts of testing",
           "Docker, CircleCI, Heroku, Netlify, Deno deploy",
+          "Telegram Bot API",
           "OOP, SOLID, Functional programming",
         ]}
       />
